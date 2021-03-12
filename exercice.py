@@ -8,10 +8,10 @@ import itertools
 
 
 def get_maximums(numbers):
-	return [0]
+	return [max(element) for element in numbers]
 
 def join_integers(numbers):
-	return 0
+	return int("".join([str(element) for element in numbers]))
 
 def generate_prime_numbers(limit):
 	return [0]
